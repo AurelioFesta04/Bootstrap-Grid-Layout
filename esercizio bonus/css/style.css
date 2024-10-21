@@ -1,0 +1,35 @@
+[class^="container"] {
+    /* border: 1px solid black; */
+    min-height: 100px;
+}
+
+[class^="row"] {
+    /* border: 1px solid red; */
+    min-height: 100px;
+}
+
+[class^="col"] {
+    min-height: 100px;
+    /* border: 1px solid lightgrey; */
+}
+
+.border-gray {
+    border: 1px solid lightgray;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.inner-padding {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 2%;
+}
+
+.low-height {
+    min-height: 1rem;
+    padding-left: 10px;
+}
+
+.under-space {
+    margin-bottom: 2rem;
+}
