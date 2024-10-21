@@ -1,0 +1,28 @@
+[class^="container"] {
+    /* border: 1px solid black; */
+    min-height: 200px;
+    margin-bottom: 2rem;
+}
+
+[class^="row"] {
+    /* border: 1px solid red; */
+    min-height: 200px;
+}
+
+[class^="col"] {
+    min-height: 100px;
+    padding: 5% 5%;
+    /* border: 1px solid blue; */
+}
+
+.text-color-white {
+    color: white;
+}
+
+.flexible {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
